@@ -13,6 +13,10 @@ export default {
         ccream: "#F5F2DC", 
         cmaroon: "#8C0D1C", 
       },
+
+      screens: {
+        'cust': '1102px',
+      },
     },
   plugins: [],
   }

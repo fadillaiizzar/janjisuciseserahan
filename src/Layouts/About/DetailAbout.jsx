@@ -1,16 +1,19 @@
 import Paragraf from "../../Elements/Text/Paragraf";
 
-export default function DetailAbout(){
+export default function DetailAbout(props){
+    const { spanicon , children} = props;
     return(
-        <div className="bg-cmaroon py-3 px-5">
-            <div className="text-ccream">★★★★★</div>
-            <div className="text-ccream">Berdiri Sejak 2023</div>
+        <div className="bg-cmaroon rounded-lg p-5 flex flex-col justify-between md:h-[340px] lg:h-[380px] xl:h-[300px] ">
+            <span className="material-symbols-outlined text-4xl text-ccream">
+                {spanicon}
+            </span>     
+
             <Paragraf
                 mt="mt-4"
                 textcolor="text-ccream"
             >
-                Sejak didirikan pada tahun 2023, kami berfokus pada memberikan layanan terbaik untuk setiap acara. Dengan mengutamakan desain elegan dan tema yang sepenuhnya disesuaikan, kami berkomitmen untuk menciptakan pengalaman yang tak terlupakan, menambah keindahan pada setiap momen spesial Anda.
+                {children}
             </Paragraf>
         </div>
     );
-}
+} 
