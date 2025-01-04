@@ -9,7 +9,7 @@ export default function CardAbout() {
                         <DetailAbout 
                             spanicon="work_history"
                         >
-                            Sejak didirikan pada tahun 2023, kami berfokus pada memberikan layanan terbaik untuk setiap acara. Dengan mengutamakan desain elegan dan tema yang sepenuhnya disesuaikan, kami berkomitmen untuk menciptakan pengalaman yang tak terlupakan, menambah keindahan pada setiap momen spesial.
+                            Sejak didirikan pada tahun 2023, kami berfokus pada memberikan layanan terbaik untuk setiap acara. Dengan mengutamakan desain elegan dan tema yang sepenuhnya disesuaikan, kami berkomitmen untuk menciptakan pengalaman yang tak terlupakan, menambah keindahan pada setiap momen spesial
                         </DetailAbout>
                     </div>
                     
@@ -17,7 +17,7 @@ export default function CardAbout() {
                         <DetailAbout 
                             spanicon="heart_plus"                        
                         >
-                            Kami menyediakan jasa hias dan sewa seserahan untuk berbagai acara spesial, seperti pernikahan, lamaran, dan acara penting lainnya. Layanan kami meliputi dekorasi seserahan yang elegan dan indah, sesuai dengan tema yang diinginkan klien, serta penyewaan perlengkapan seserahan yang berkualitas dan estetis.
+                            Kami menyediakan jasa hias dan sewa seserahan untuk berbagai acara spesial, seperti pernikahan, lamaran, dan acara penting lainnya. Layanan kami meliputi dekorasi seserahan yang elegan dan indah, sesuai dengan tema yang diinginkan klien, serta penyewaan perlengkapan seserahan yang berkualitas dan estetis
                         </DetailAbout>
                     </div>
 
@@ -25,7 +25,7 @@ export default function CardAbout() {
                         <DetailAbout 
                             spanicon="location_on"                        
                         >
-                            Layanan jasa hias dan sewa seserahan kami berlokasi di Imogiri, Bantul, Yogyakarta yang melayani pelanggan dengan layanan pengiriman dan pengambilan sesuai permintaan. Kami berkomitmen untuk memberikan sentuhan spesial pada setiap acara, memastikan setiap momen berjalan lancar, istimewa, dan penuh kesan.
+                            Layanan jasa hias dan sewa seserahan kami berlokasi di Imogiri, Bantul, Yogyakarta yang melayani pelanggan dengan layanan pengiriman dan pengambilan sesuai permintaan. Kami berkomitmen untuk memberikan sentuhan spesial pada setiap acara, memastikan setiap momen berjalan lancar, istimewa, dan penuh kesan
                         </DetailAbout>
                     </div>
                 </div>

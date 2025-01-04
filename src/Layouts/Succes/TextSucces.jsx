@@ -19,7 +19,7 @@ export default function TextSucces() {
                     position="text-left"
                     textcolor="text-ccream"
                 >
-                    Kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami
+                    Kami berkomitmen untuk menjadikan setiap momen spesial anda lebih berkesan dengan sentuhan terbaik kami
                 </Paragraf>
 
                 <Button />  

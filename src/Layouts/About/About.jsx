@@ -10,7 +10,7 @@ export default function About() {
             <Paragraf 
                 mt="mt-2"    
             >
-                Janji Suci Seserahan menyediakan jasa hias dan sewa seserahan untuk berbagai acara, seperti pernikahan atau lamaran, dengan desain elegan dan tema yang dapat disesuaikan, sehingga setiap momen spesial terasa lebih istimewa dan berkesan.
+                Kami menyediakan jasa hias dan sewa seserahan untuk berbagai acara, seperti pernikahan atau lamaran, dengan desain elegan dan tema yang dapat disesuaikan, sehingga setiap momen spesial terasa lebih istimewa dan berkesan
             </Paragraf>
 
             <CardAbout />

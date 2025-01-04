@@ -6,7 +6,9 @@ export default function Project() {
         <div className="bg-ccream font-poppins pt-10 h-screen">
             <Navbar />
 
-            <Footer />
+            <div className="mt-10">
+                <Footer />
+            </div>
         </div>
     );
 }

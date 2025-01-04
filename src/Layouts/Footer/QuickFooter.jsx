@@ -1,20 +1,21 @@
 import Paragraf from "../../Elements/Text/Paragraf";
+import { Link } from "react-router-dom";
 
 export default function QuickFooter() {
     const listNav = [
         { name: "Layanan" , textcolor: "text-ccream" , fontsize: "text-xl" },
-        { name: "Best Seller" , textcolor: "text-ccream" , mt: "mt-2" , href: "/#best" },
-        { name: "Layanan" , textcolor: "text-ccream" , href: "/layanan" },
-        { name: "Project" , textcolor: "text-ccream" , href: "/project" },
+        { name: "Pilihan Unggulan" , textcolor: "text-ccream" , mt: "mt-2" , link: "/#unggul" },
+        { name: "Layanan" , textcolor: "text-ccream" , link: "/layanan" },
+        { name: "Project" , textcolor: "text-ccream" , link: "/project" },
     ];
     
     return(
         <div className="flex flex-col lg:text-center mt-5 cust2:mt-0">
             {listNav.map((item, index) => (
-                item.href ? (
-                    <a 
+                item.link ? (
+                    <Link 
                         key={index} 
-                        href={item.href} 
+                        to={item.link} 
                         className={`${item.textcolor} ${item.mt || ""}`}
                     >
                         <Paragraf 
@@ -23,7 +24,7 @@ export default function QuickFooter() {
                         >
                             {item.name}
                         </Paragraf>
-                    </a>
+                    </Link>
                 ) : (
                     <Paragraf 
                         key={index} 

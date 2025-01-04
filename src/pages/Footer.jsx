@@ -7,7 +7,7 @@ import ServFooter from "../Layouts/Footer/ServFooter";
 export default function Footer() {
     return(
         <div className="bg-cmaroon px-10 pt-10">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 border-b-2 pb-6">
                 <LogoFooter />
 
                 <div className="mt-5 lg:mt-0">

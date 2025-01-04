@@ -10,13 +10,13 @@ export default function Best() {
     ];
 
     return(
-        <div id="best" className="px-10 pb-28 mt-8">
-            <HeadingSatu>Best Seller</HeadingSatu>
+        <div id="unggul" className="px-10 pb-28 mt-8">
+            <HeadingSatu>Pilihan Unggulan Janji Suci Seserahan</HeadingSatu>
 
             <Paragraf 
                 mt="mt-2"    
             >
-                Best Seller Janji Suci Seserahan adalah layanan unggulan kami yang menawarkan dekorasi dan penyewaan seserahan elegan untuk berbagai acara spesial seperti pernikahan dan lamaran.
+                Sebagai layanan unggulan, kami menghadirkan dekorasi dan penyewaan seserahan yang memadukan keindahan estetika dan fungsionalitas. Kami ingin membantu anda menciptakan momen tak terlupakan dengan seserahan yang istimewa
             </Paragraf>
 
             <div className="mt-40">
