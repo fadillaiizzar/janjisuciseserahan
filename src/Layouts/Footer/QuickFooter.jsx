@@ -3,9 +3,9 @@ import Paragraf from "../../Elements/Text/Paragraf";
 export default function QuickFooter() {
     const listNav = [
         { name: "Layanan" , textcolor: "text-ccream" , fontsize: "text-xl" },
-        { name: "Best Seller" , textcolor: "text-ccream" , mt: "mt-2" , href: "#best" },
-        { name: "Layanan" , textcolor: "text-ccream" , href: "#layanan" },
-        { name: "Project" , textcolor: "text-ccream" , href: "#project" },
+        { name: "Best Seller" , textcolor: "text-ccream" , mt: "mt-2" , href: "/#best" },
+        { name: "Layanan" , textcolor: "text-ccream" , href: "/layanan" },
+        { name: "Project" , textcolor: "text-ccream" , href: "/project" },
     ];
     
     return(

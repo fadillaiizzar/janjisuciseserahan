@@ -2,6 +2,7 @@ import "@fontsource/poppins";
 import Header from "./pages/Header";
 import Main from "./pages/Main";
 import Footer from "./pages/Footer";
+import ScrollToHash from "./pages/ScrollToHash";
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
       <Header />
       <Main />
       <Footer />
+      <ScrollToHash />
     </div>
   )
 }

@@ -3,8 +3,8 @@ import Paragraf from "../../Elements/Text/Paragraf";
 export default function ServFooter() {
     const listNav = [
         { name: "Kontak" , textcolor: "text-ccream" , fontsize: "text-xl" , h: "h-auto" },
-        { name: "Perhatian" , textcolor: "text-ccream" , mt: "mt-2" , href: "#attention" },
-        { name: "Kontak" , textcolor: "text-ccream" , href: "#kontak" },
+        { name: "Perhatian" , textcolor: "text-ccream" , mt: "mt-2" , href: "/perhatian" },
+        { name: "Kontak" , textcolor: "text-ccream" , href: "/kontak" },
     ];
     
     return(

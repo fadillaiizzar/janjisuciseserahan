@@ -3,9 +3,9 @@ import Paragraf from "../../Elements/Text/Paragraf";
 export default function NavFooter() {
     const listNav = [
         { name: "Profile" , textcolor: "text-ccream" , fontsize: "text-xl" },
-        { name: "Beranda" , textcolor: "text-ccream" , mt: "mt-2", href: "#beranda" },
-        { name: "Tentang Kami" , textcolor: "text-ccream" , href: "#about" },
-        { name: "Sukses" , textcolor: "text-ccream" , href: "#sukses" },
+        { name: "Beranda" , textcolor: "text-ccream" , mt: "mt-2", href: "/" },
+        { name: "Tentang Kami" , textcolor: "text-ccream" , href: "/#about" },
+        { name: "Sukses" , textcolor: "text-ccream" , href: "/#sukses" },
     ];
 
     return (

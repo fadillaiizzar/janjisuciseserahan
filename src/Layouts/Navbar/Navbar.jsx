@@ -3,10 +3,11 @@ import ListNav from "./ListNav";
 
 export default function Navbar() {
     const navItems = [
-        { link: "https://socialse.vercel.app" ,  name: "Layanan" , spanicon: "heart_plus"},
-        { link: "https://socialse.vercel.app" ,  name: "Project" , spanicon: "tactic"},
-        { link: "https://socialse.vercel.app" ,  name: "Perhatian" , spanicon: "pulse_alert"},
-        { link: "https://socialse.vercel.app" ,  name: "Kontak" , spanicon: "contacts_product"},
+        { link: "/" ,  name: "Beranda" , spanicon: "contacts_product"},
+        { link: "/layanan" ,  name: "Layanan" , spanicon: "heart_plus"},
+        { link: "/project" ,  name: "Project" , spanicon: "tactic"},
+        { link: "/perhatian" ,  name: "Perhatian" , spanicon: "pulse_alert"},
+        { link: "/kontak" ,  name: "Kontak" , spanicon: "contacts_product"},
     ];
 
     const [menuOpen , setMenuOpen] = useState(false);
