@@ -3,7 +3,7 @@ import ListNav from "./ListNav";
 
 export default function Navbar() {
     const navItems = [
-        { link: "/" ,  name: "Beranda" , spanicon: "contacts_product"},
+        { link: "/" ,  name: "Beranda" , spanicon: "cottage"},
         { link: "/layanan" ,  name: "Layanan" , spanicon: "heart_plus"},
         { link: "/project" ,  name: "Project" , spanicon: "tactic"},
         { link: "/perhatian" ,  name: "Perhatian" , spanicon: "pulse_alert"},

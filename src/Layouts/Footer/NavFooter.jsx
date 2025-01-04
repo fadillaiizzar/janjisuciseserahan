@@ -1,20 +1,21 @@
 import Paragraf from "../../Elements/Text/Paragraf";
+import { Link } from 'react-router-dom';
 
 export default function NavFooter() {
     const listNav = [
         { name: "Profile" , textcolor: "text-ccream" , fontsize: "text-xl" },
-        { name: "Beranda" , textcolor: "text-ccream" , mt: "mt-2", href: "/" },
-        { name: "Tentang Kami" , textcolor: "text-ccream" , href: "/#about" },
-        { name: "Sukses" , textcolor: "text-ccream" , href: "/#sukses" },
+        { name: "Beranda" , textcolor: "text-ccream" , mt: "mt-2", link: "/#beranda" },
+        { name: "Tentang Kami" , textcolor: "text-ccream" , link: "/#about" },
+        { name: "Sukses" , textcolor: "text-ccream" , link: "/#sukses" },
     ];
 
     return (
         <div className="flex flex-col lg:text-center">
             {listNav.map((item, index) => (
-                item.href ? (
-                    <a
+                item.link ? (
+                    <Link
                         key={index}
-                        href={item.href}
+                        to={item.link}
                         className={`${item.textcolor} ${item.mt || ""}`}
                     >
                         <Paragraf 
@@ -23,7 +24,7 @@ export default function NavFooter() {
                         >
                             {item.name}
                         </Paragraf>
-                    </a>
+                    </Link>
                 ) : (
                     <Paragraf
                         key={index}
