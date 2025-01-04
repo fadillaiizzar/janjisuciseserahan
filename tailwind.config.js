@@ -16,6 +16,7 @@ export default {
 
       screens: {
         'cust': '1102px',
+        'cust2': '400px',
       },
     },
   plugins: [],

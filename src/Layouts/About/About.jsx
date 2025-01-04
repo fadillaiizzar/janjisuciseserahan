@@ -4,7 +4,7 @@ import CardAbout from "./CardAbout";
 
 export default function About() {
     return(
-        <div className="px-10 pb-28">
+        <div id="about" className="px-10 pb-28">
             <HeadingSatu>Seputar Janji Suci Seserahan</HeadingSatu>
 
             <Paragraf 

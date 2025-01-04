@@ -17,7 +17,7 @@ export default function Navbar() {
     return(
         <>
             <div className="hidden md:flex justify-center px-10">
-                <ul className="bg-cmaroon text-ccream font-semibold flex gap-4 border-2 py-3 px-12 rounded-tl-full rounded-br-full">
+                <ul className="bg-cmaroon text-ccream shadow-2xl font-semibold flex gap-4 py-3 px-12 rounded-tl-full rounded-br-full">
                     {navItems.map((item, index) => (
                         <ListNav key={index} link={item.link}>
                             {item.name}
@@ -33,7 +33,7 @@ export default function Navbar() {
             </div>
 
             <div className={`${menuOpen ? "block" : "hidden"} flex md:hidden px-10 mt-8`}>
-                <ul className="bg-cmaroon text-ccream text-lg text-center w-full font-semibold flex flex-col gap-4 border-2 py-6 px-12 rounded-lg">
+                <ul className="bg-cmaroon text-ccream text-lg text-center w-full font-semibold flex flex-col gap-4 py-6 px-12 rounded-lg shadow-xl">
                     {navItems.map((item, index) => (
                         <ListNav key={index} link={item.link} spanicon={item.spanicon}>
                             {item.name}

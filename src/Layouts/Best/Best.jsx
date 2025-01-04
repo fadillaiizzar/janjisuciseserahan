@@ -10,7 +10,7 @@ export default function Best() {
     ];
 
     return(
-        <div className="px-10 pb-28 mt-8">
+        <div id="best" className="px-10 pb-28 mt-8">
             <HeadingSatu>Best Seller</HeadingSatu>
 
             <Paragraf 
