@@ -1,8 +1,8 @@
 export default function IconPanah(props) {
-    const { fontsize="text-5xl" , children } = props;
+    const { fontsize , fontsizeSm , onClick ,children } = props;
     return(
         <div>
-            <span className={`${fontsize} material-symbols-outlined text-cmaroon`}>
+            <span className={`${fontsize} ${fontsizeSm} material-symbols-outlined text-cmaroon cursor-pointer`} onClick={onClick}>
                 {children}
             </span> 
         </div>
