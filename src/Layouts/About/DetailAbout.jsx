@@ -9,8 +9,10 @@ export default function DetailAbout(props){
             </span>     
 
             <Paragraf
-                mt="mt-4"
+                mt="mt-2"
                 textcolor="text-ccream"
+                contentMd="md:content-center"
+                contentLg="lg:content-start"
             >
                 {children}
             </Paragraf>
