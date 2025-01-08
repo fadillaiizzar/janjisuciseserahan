@@ -5,7 +5,7 @@ export default function QuickFooter() {
     const listNav = [
         { name: "Layanan" , textcolor: "text-ccream" , fontsize: "text-xl" },
         { name: "Pilihan Unggulan" , textcolor: "text-ccream" , mt: "mt-2" , link: "/#unggul" },
-        { name: "Layanan" , textcolor: "text-ccream" , link: "/layanan" },
+        { name: "Layanan" , textcolor: "text-ccream" , link: "/layanan#layanan" },
         { name: "Project" , textcolor: "text-ccream" , link: "/project" },
     ];
     
