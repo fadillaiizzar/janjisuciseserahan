@@ -28,7 +28,7 @@ export default function Navbar() {
             </div>
 
             <div className="flex md:hidden justify-end mr-10 cursor-pointer" onClick={iconmenu}>
-                <span className="material-symbols-outlined text-3xl">
+                <span className="material-symbols-outlined text-3xl text-cmaroon">
                     filter_list
                 </span>
             </div>

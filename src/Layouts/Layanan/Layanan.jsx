@@ -9,7 +9,7 @@ import CardKepercayaan from "./Kepercayaan/CardKepercayaan";
 export default function Layanan() {
     return(
         <div id="layanan" className="bg-ccream font-poppins pt-10 h-auto">
-            <div className="pb-20">
+            <div className="pb-28">
                 <Navbar />
 
                 <div className="px-10">
@@ -27,7 +27,7 @@ export default function Layanan() {
 
                 <div id="kepercayaan" className="px-10">
                     <HeadingSatu
-                        pt="pt-14"
+                        pt="pt-16"
                     >
                         Alasan Janji Suci Seserahan Layak Mendampingi Momen Anda
                     </HeadingSatu>

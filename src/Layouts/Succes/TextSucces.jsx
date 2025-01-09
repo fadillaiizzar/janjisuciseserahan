@@ -1,6 +1,7 @@
 import Button from "../../Elements/Button/Button";
 import HeadingSatu from "../../Elements/Text/HeadingSatu";
 import Paragraf from "../../Elements/Text/Paragraf";
+import ScrollToHash from "../../pages/ScrollToHash";
 
 export default function TextSucces() {
     return(
@@ -22,7 +23,11 @@ export default function TextSucces() {
                     Kami berkomitmen untuk menjadikan setiap momen spesial anda lebih berkesan dengan sentuhan terbaik kami
                 </Paragraf>
 
-                <Button />  
+                <Button 
+                    link="/layanan#layanan"
+                />  
+
+                <ScrollToHash />
             </div>
         </>
     );

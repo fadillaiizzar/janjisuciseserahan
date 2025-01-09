@@ -14,7 +14,7 @@ export default function CardKepercayaan() {
         },
         {
             name: "Layanan Penjemputan Barang Seserahan Yang Memudahkan",
-            text: "Sebelum membuat keputusan, kami siap membantu memberikan informasi terkait layanan, produk, harga, atau cara penggunaan agar anda merasa yakin dan nyaman. Konsultasikan kebutuhan anda dengan kami untuk memastikan keputusan sesuai harapan. Hubungi kami melalui saluran yang tersedia",
+            text: "Kami menyediakan layanan penjemputan barang seserahan sebelum proses dekorasi dimulai. Anda tidak perlu repot, tim kami akan datang untuk mengambil barang seserahan langsung dari lokasi anda. Setelah itu, barang akan dibawa ke tempat kami untuk dihias dengan sentuhan yang sesuai dengan tema acara yang anda inginkan",
             colspan: "lg:col-span-3",
             lgMaxw: "lg:max-w-lg"
         },
