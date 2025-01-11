@@ -18,6 +18,10 @@ export default {
         'cust': '1102px',
         'cust2': '400px',
       },
+
+      backgroundImage: {
+        'project': "url('/image/bgproject.png')",
+      },
     },
   plugins: [],
   }
