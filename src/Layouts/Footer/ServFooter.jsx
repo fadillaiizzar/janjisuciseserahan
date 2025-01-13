@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function ServFooter() {
     const listNav = [
         { name: "Kontak" , textcolor: "text-ccream" , fontsize: "text-xl" , h: "h-auto" },
-        { name: "Perhatian" , textcolor: "text-ccream" , mt: "mt-2" , link: "/perhatian" },
-        { name: "Kontak" , textcolor: "text-ccream" , link: "/kontak" },
+        { name: "Perhatian" , textcolor: "text-ccream" , mt: "mt-2" , link: "/perhatian#perhatian" },
+        { name: "Kontak" , textcolor: "text-ccream" , link: "/kontak#kontak" },
     ];
     
     return(

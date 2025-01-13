@@ -1,6 +1,7 @@
 import Footer from "../../pages/Footer";
 import Navbar from "../Navbar/Navbar";
 import TotalProject from "./TotalProject/TotalProject";
+import ScrollToHash from "../../pages/ScrollToHash";
 
 export default function Project() {
     const listTotalProject = [
@@ -40,7 +41,7 @@ export default function Project() {
     ]
 
     return(
-        <div className="bg-ccream font-poppins h-screen">
+        <div id="project" className="bg-ccream font-poppins h-screen">
             <div className="bg-project bg-no-repeat relative h-[75vh] w-full bg-center bg-cover py-10">
                 <Navbar />
 
@@ -66,6 +67,8 @@ export default function Project() {
             <div className="mt-40">
                 <Footer />
             </div>
+
+            <ScrollToHash />
         </div>
     );
 }

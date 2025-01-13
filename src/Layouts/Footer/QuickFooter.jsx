@@ -6,7 +6,7 @@ export default function QuickFooter() {
         { name: "Layanan" , textcolor: "text-ccream" , fontsize: "text-xl" },
         { name: "Pilihan Unggulan" , textcolor: "text-ccream" , mt: "mt-2" , link: "/#unggul" },
         { name: "Layanan" , textcolor: "text-ccream" , link: "/layanan#layanan" },
-        { name: "Project" , textcolor: "text-ccream" , link: "/project" },
+        { name: "Project" , textcolor: "text-ccream" , link: "/project#project" },
     ];
     
     return(

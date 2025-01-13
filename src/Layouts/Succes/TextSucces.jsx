@@ -24,7 +24,7 @@ export default function TextSucces() {
                 </Paragraf>
 
                 <Button 
-                    link="/layanan#layanan"
+                    link="/layanan#kepercayaan"
                 />  
 
                 <ScrollToHash />
