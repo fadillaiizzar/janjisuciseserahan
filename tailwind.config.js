@@ -17,6 +17,9 @@ export default {
       screens: {
         'cust': '1102px',
         'cust2': '400px',
+        'cust3': '736px',
+        'cust4': '640px',
+        'cust5': '622px',
       },
 
       backgroundImage: {

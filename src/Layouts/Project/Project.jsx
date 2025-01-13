@@ -1,4 +1,3 @@
-import HeadingSatu from "../../Elements/Text/HeadingSatu";
 import Footer from "../../pages/Footer";
 import Navbar from "../Navbar/Navbar";
 import TotalProject from "./TotalProject/TotalProject";
@@ -45,8 +44,8 @@ export default function Project() {
             <div className="bg-project bg-no-repeat relative h-[75vh] w-full bg-center bg-cover py-10">
                 <Navbar />
 
-                <div className="flex flex-col justify-center items-center py-20">
-                    <div className="text-cmaroon px-10">
+                <div className="flex flex-col justify-center items-center py-12 cust5:py-5 cust3:py-16">
+                    <div className="text-cmaroon px-12 sm:px-10">
                         {listTitleProject.map((item, index) => (
                             <TitleProject key={index} pt={item.pt} lh={item.lh}>
                                 {item.name}
@@ -55,7 +54,7 @@ export default function Project() {
                     </div>
                 </div>
 
-                <div className="absolute rounded-lg h-28 sm:h-40 w-3/4 left-1/2 transform -translate-x-1/2 -bottom-14 sm:-bottom-20 grid grid-cols-3">
+                <div className="absolute rounded-lg h-28 sm:h-40 w-full lg:w-[850px] px-4 sm:px-10 lg:px-0 left-1/2 transform -translate-x-1/2 -bottom-14 sm:-bottom-20 grid grid-cols-3">
                     {listTotalProject.map((item, index) => (
                         <TotalProject key={index} border={item.border} roundedtr={item.roundedtr} roundedbr={item.roundedbr} roundedtl={item.roundedtl} roundedbl={item.roundedbl} text={item.text}>
                             {item.name} 
@@ -75,7 +74,7 @@ function TitleProject(props) {
     const { pt="pt-5" , lh , children } = props;
 
     return(
-        <h1 style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.6)'}} className={`${pt} ${lh} text-4xl text-center pb-3 max-w-sm font-semibold`}>
+        <h1 style={{textShadow: '2px 2px 4px rgba(0, 0, 0, 0.2), -1px -1px 2px rgba(255, 255, 255, 0.6)'}} className={`${pt} ${lh} text-5xl cust5:text-6xl text-center pb-3 font-extrabold`}>
             {children}
         </h1>
     );
