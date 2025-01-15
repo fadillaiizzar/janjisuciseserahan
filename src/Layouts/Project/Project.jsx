@@ -2,6 +2,8 @@ import Footer from "../../pages/Footer";
 import Navbar from "../Navbar/Navbar";
 import TotalProject from "./TotalProject/TotalProject";
 import ScrollToHash from "../../pages/ScrollToHash";
+import HeadingSatu from "../../Elements/Text/HeadingSatu";
+import Paragraf from "../../Elements/Text/Paragraf";
 
 export default function Project() {
     const listTotalProject = [
@@ -41,11 +43,11 @@ export default function Project() {
     ]
 
     return(
-        <div id="project" className="bg-ccream font-poppins h-screen">
-            <div className="bg-project bg-no-repeat relative h-[75vh] w-full bg-center bg-cover py-10">
+        <div id="project" className="bg-ccream font-poppins h-auto">
+            <div className="bg-project bg-no-repeat relative h-auto w-full bg-center bg-cover py-10">
                 <Navbar />
 
-                <div className="flex flex-col justify-center items-center py-12 cust5:py-5 cust3:py-16">
+                <div className="flex flex-col justify-center items-center pt-24 pb-32 cust5:py-36 cust5:pt-20 cust3:pb-32 cust3:pt-24">
                     <div className="text-cmaroon px-12 sm:px-10">
                         {listTitleProject.map((item, index) => (
                             <TitleProject key={index} pt={item.pt} lh={item.lh}>
@@ -62,6 +64,32 @@ export default function Project() {
                         </TotalProject>
                     ))}
                 </div>
+            </div>
+
+            <div className="mt-32 px-10 flex justify-center bg-ccream">
+                <h1 className="text-2xl">★★★★★</h1>
+            </div>
+
+            <div className="mt-8 px-10">
+                <div>
+                    <HeadingSatu
+                        pt="pt-0"
+                    >
+                        Project Riyal
+                    </HeadingSatu>
+
+                    <Paragraf
+                        mt="mt-2"
+                    >
+                        Kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami
+                    </Paragraf>
+                </div>
+
+                {/* <div>
+                    <div className="mt-9">
+                        <h1 className="font-semibold text-cmaroon">Tray Gray</h1>
+                    </div>
+                </div> */}
             </div>
 
             <div className="mt-40">
