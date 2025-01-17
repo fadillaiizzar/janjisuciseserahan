@@ -20,6 +20,10 @@ export default {
         'cust3': '736px',
         'cust4': '640px',
         'cust5': '622px',
+        'cust6': '1070px',
+        'cust7': '685px',
+        'cust8': '610px',
+        'cust9': '490px',
       },
 
       backgroundImage: {

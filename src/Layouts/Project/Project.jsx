@@ -2,8 +2,9 @@ import Footer from "../../pages/Footer";
 import Navbar from "../Navbar/Navbar";
 import TotalProject from "./TotalProject/TotalProject";
 import ScrollToHash from "../../pages/ScrollToHash";
-import HeadingSatu from "../../Elements/Text/HeadingSatu";
-import Paragraf from "../../Elements/Text/Paragraf";
+import BoxProject from "./BoxProject/BoxProject";
+import TextProject from "./TextProject";
+import BoxRiview from "./Riview/BoxRiview";
 
 export default function Project() {
     const listTotalProject = [
@@ -42,6 +43,23 @@ export default function Project() {
         },
     ]
 
+    const listRiview = [
+        {
+            name: "kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami",
+            imgRiview: "/image/jewelrybox.png",
+            text: "dilla"
+        },
+        {
+            name: "kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami",
+            text: "dilla"
+        },
+        {
+            name: "kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami",
+            imgRiview: "/image/jewelrybox.png",
+            text: "dilla"
+        },
+    ]
+
     return(
         <div id="project" className="bg-ccream font-poppins h-auto">
             <div className="bg-project bg-no-repeat relative h-auto w-full bg-center bg-cover py-10">
@@ -67,32 +85,38 @@ export default function Project() {
             </div>
 
             <div className="mt-32 px-10 flex justify-center bg-ccream">
-                <h1 className="text-2xl">★★★★★</h1>
+                <h1 className="text-2xl text-cmaroon">★★★★★</h1>
             </div>
 
-            <div className="mt-8 px-10">
+            <TextProject 
+                textheading="Project Janji Suci Seserahan Yang Berkesan"
+            >
+                Halaman project Janji Suci Seserahan menampilkan koleksi eksklusif layanan seserahan untuk berbagai acara spesial. Halaman ini dirancang untuk mempermudah calon pelanggan dalam memilih paket seserahan sesuai tema, anggaran, dan preferensi mereka
+            </TextProject>
+
+            <BoxProject />
+            <BoxProject />
+            <BoxProject />
+
+            <TextProject 
+                textheading="Review Eksklusif Dari Project Janji Suci Seserahan"
+            >
+                Para pelanggan kami memberikan tinjauan tentang kualitas dan keunggulan layanan seserahan yang ditawarkan oleh Janji Suci Seserahan. Review ini mencakup pengalaman pelanggan, detail tentang pilihan paket, serta kesan keseluruhan dari proyek ini, memberikan gambaran yang lebih jelas bagi calon pelanggan yang tertarik
+            </TextProject>
+
+            <div className="px-10 text-ccream mt-8">
                 <div>
-                    <HeadingSatu
-                        pt="pt-0"
-                    >
-                        Project Riyal
-                    </HeadingSatu>
-
-                    <Paragraf
-                        mt="mt-2"
-                    >
-                        Kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami
-                    </Paragraf>
-                </div>
-
-                {/* <div>
-                    <div className="mt-9">
-                        <h1 className="font-semibold text-cmaroon">Tray Gray</h1>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                        {listRiview.map((item, index) => (
+                            <BoxRiview key={index} imgRiview={item.imgRiview} text={item.text}>
+                                {item.name}
+                            </BoxRiview>
+                        ))}
                     </div>
-                </div> */}
+                </div>
             </div>
 
-            <div className="mt-40">
+            <div className="mt-28">
                 <Footer />
             </div>
 
