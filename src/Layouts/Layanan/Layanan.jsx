@@ -13,7 +13,7 @@ export default function Layanan() {
                 <Navbar />
 
                 <div className="px-10">
-                    <HeadingSatu>Apa Yang Janji Suci Seserahan Tawarkan?</HeadingSatu>
+                    <HeadingSatu>Layanan Apa Yang Janji Suci Seserahan Tawarkan?</HeadingSatu>
 
                     <Paragraf
                         mt="mt-2"  

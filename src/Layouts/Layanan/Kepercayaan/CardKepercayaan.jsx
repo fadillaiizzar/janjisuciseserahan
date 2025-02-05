@@ -23,7 +23,7 @@ export default function CardKepercayaan() {
     return(
         <>
             <div className="mt-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     {listTitle.map((item, index) => (
                         <TitleKepercayaan key={index} text={item.text} rowspan={item.rowspan} colspan={item.colspan} lgMaxw={item.lgMaxw}>
                             {item.name}
@@ -39,9 +39,9 @@ function TitleKepercayaan(props) {
     const { rowspan , colspan , text , lgMaxw , children } = props;
 
     return(
-        <div className={`${rowspan} ${colspan} bg-cmaroon py-5 px-4 rounded-lg shadow-2xl`}>
-            <p className={`${lgMaxw} text-lg text-ccream font-semibold h-auto md:h-14`}>{children}</p>
-            <p className="mt-2 text-ccream">{text}</p>
+        <div className={`${rowspan} ${colspan} hover:bg-cmaroon bg-ccream text-cmaroon hover:text-ccream py-5 px-4 rounded-lg shadow-2xl cursor-pointer`}>
+            <p className={`${lgMaxw} text-lg  font-semibold h-auto md:h-14`}>{children}</p>
+            <p className="mt-2">{text}</p>
         </div>
     );
 }

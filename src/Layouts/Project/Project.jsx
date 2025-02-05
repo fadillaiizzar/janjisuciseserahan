@@ -5,6 +5,7 @@ import ScrollToHash from "../../pages/ScrollToHash";
 import BoxProject from "./BoxProject/BoxProject";
 import TextProject from "./TextProject";
 import BoxRiview from "./Riview/BoxRiview";
+import Riview from "./Riview/RIview";
 
 export default function Project() {
     const listTotalProject = [
@@ -43,23 +44,6 @@ export default function Project() {
         },
     ]
 
-    const listRiview = [
-        {
-            name: "kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami",
-            imgRiview: "/image/jewelrybox.png",
-            text: "dilla"
-        },
-        {
-            name: "kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami",
-            text: "dilla"
-        },
-        {
-            name: "kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami",
-            imgRiview: "/image/jewelrybox.png",
-            text: "dilla"
-        },
-    ]
-
     return(
         <div id="project" className="bg-ccream font-poppins h-auto">
             <div className="bg-project bg-no-repeat relative h-auto w-full bg-center bg-cover py-10">
@@ -95,26 +79,8 @@ export default function Project() {
             </TextProject>
 
             <BoxProject />
-            <BoxProject />
-            <BoxProject />
 
-            <TextProject 
-                textheading="Review Eksklusif Dari Project Janji Suci Seserahan"
-            >
-                Para pelanggan kami memberikan tinjauan tentang kualitas dan keunggulan layanan seserahan yang ditawarkan oleh Janji Suci Seserahan. Review ini mencakup pengalaman pelanggan, detail tentang pilihan paket, serta kesan keseluruhan dari proyek ini, memberikan gambaran yang lebih jelas bagi calon pelanggan yang tertarik
-            </TextProject>
-
-            <div className="px-10 text-ccream mt-8">
-                <div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-                        {listRiview.map((item, index) => (
-                            <BoxRiview key={index} imgRiview={item.imgRiview} text={item.text}>
-                                {item.name}
-                            </BoxRiview>
-                        ))}
-                    </div>
-                </div>
-            </div>
+            <Riview />
 
             <div className="mt-28">
                 <Footer />

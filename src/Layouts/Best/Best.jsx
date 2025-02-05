@@ -20,7 +20,7 @@ export default function Best() {
             </Paragraf>
 
             <div className="mt-40">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 cursor-pointer">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 cursor-pointer">
                     {cards.map((item, index) => (
                         <CardBest key={index} imgCardBest={item.imgCardBest} mtMd={item.mtMd} mtLg={item.mtLg} mtSm={item.mtSm} />
                     ) )}
