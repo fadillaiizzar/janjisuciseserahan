@@ -16,7 +16,7 @@ export default function Project() {
             text: "project"
         },
         {
-            name: "2+",
+            name: "3+",
             border: "border-r-0",
             roundedtr: "rounded-tr-none",
             roundedbr: "rounded-br-none",
