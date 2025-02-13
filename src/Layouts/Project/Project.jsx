@@ -4,8 +4,7 @@ import TotalProject from "./TotalProject/TotalProject";
 import ScrollToHash from "../../pages/ScrollToHash";
 import BoxProject from "./BoxProject/BoxProject";
 import TextProject from "./TextProject";
-import BoxRiview from "./Riview/BoxRiview";
-import Riview from "./Riview/RIview";
+import Riview from "./Riview/Riview";
 
 export default function Project() {
     const listTotalProject = [
