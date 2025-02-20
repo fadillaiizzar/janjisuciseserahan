@@ -2,15 +2,15 @@ export default function CardKepercayaan() {
     const listTitle = [
         {
             name: "Hubungi Kami Untuk Konsultasi Lebih Lanjut",
-            text: "Sebelum membuat keputusan, kami siap membantu memberikan informasi dan saran yang sesuai dengan kebutuhan anda terkait layanan, produk, harga, atau cara penggunaan agar anda merasa yakin dan nyaman. Konsultasikan kebutuhan anda dengan kami untuk memastikan keputusan sesuai harapan. Hubungi kami melalui saluran yang tersedia",
+            text: "Sebelum membuat keputusan, kami siap membantu memberikan informasi dan saran yang sesuai dengan kebutuhan anda terkait layanan, produk, harga, atau cara penggunaan agar anda merasa yakin",
         },
         {
             name: "Customisasi Bunga & Tema Sesuai Keinginan Anda",
-            text: "Kami menawarkan layanan customisasi bunga dan tema yang disesuaikan dengan selera anda, baik itu tema elegan, modern, atau tradisional, tim kami siap menciptakan dekorasi yang mencerminkan harapan anda. Dengan pilihan bunga berkualitas, kami memastikan momen spesial anda menjadi tak terlupakan",
+            text: "Kami menawarkan layanan customisasi bunga dan tema yang disesuaikan dengan selera anda, baik itu tema elegan, modern, atau tradisional, tim kami siap menciptakan dekorasi yang mencerminkan harapan anda",
         },
         {
             name: "Harga Terjangkau Dengan Diskon Setiap Bulan",
-            text: "Kami menawarkan harga terjangkau agar anda bisa menikmati layanan berkualitas tanpa menguras anggaran. Selain itu, setiap bulannya kami memberikan diskon menarik yang memungkinkan anda untuk berhemat. Jangan lewatkan kesempatan untuk mendapatkan layanan terbaik dengan harga yang terjangkau",
+            text: "Kami menawarkan harga terjangkau agar anda bisa menikmati layanan berkualitas tanpa menguras anggaran. Selain itu, setiap bulannya kami memberikan diskon menarik yang memungkinkan anda untuk berhemat",
         },
         {
             name: "Layanan Penjemputan Barang Seserahan Yang Memudahkan",

@@ -39,7 +39,7 @@ export default function ListProject(props) {
                     <div className="flex justify-center cursor-pointer">
                         <div className="mt-6" onClick={() => setShowAll(!showAll)}> 
                             <p className="flex font-semibold text-cmaroon">
-                                {showAll ? "lihat lebih sedikit" : "lihat lebih banyak"}
+                                {showAll ? "Tutup" : "Selengkapnya"}
 
                                 <span className="material-symbols-outlined">
                                 {showAll ? "keyboard_arrow_up" : "keyboard_arrow_down"}
