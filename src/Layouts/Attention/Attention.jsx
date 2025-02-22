@@ -20,7 +20,7 @@ export default function Attention() {
                                 fontsize = "sm:text-3xl"
                                 position = "text-2xl"
                             >
-                                Perhatian!
+                                perhatian
                             </HeadingSatu>
                         </div>
                     </div>
