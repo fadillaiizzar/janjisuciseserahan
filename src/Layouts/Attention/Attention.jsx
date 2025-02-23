@@ -27,7 +27,7 @@ export default function Attention() {
                 </div>
             </div>
 
-            <div className="mt-10">
+            <div className="mt-20 md:mt-10">
                 <Footer />
             </div>
 
