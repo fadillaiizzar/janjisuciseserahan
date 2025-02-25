@@ -9,13 +9,13 @@ import Riview from "./Riview/Riview";
 export default function Project() {
     const listTotalProject = [
         {
-            name: "8+",
+            name: "15+",
             roundedtr: "rounded-tr-none",
             roundedbr: "rounded-br-none",
-            text: "project"
+            text: "customers"
         },
         {
-            name: "3+",
+            name: "50+",
             border: "border-r-0",
             roundedtr: "rounded-tr-none",
             roundedbr: "rounded-br-none",
@@ -24,11 +24,11 @@ export default function Project() {
             text: "project"
         },
         {
-            name: "5+",
+            name: "8+",
             border: "border-l-8",
             roundedtl: "rounded-tl-none",
             roundedbl: "rounded-bl-none",
-            text: "project"
+            text: "riview"
         },
     ]
 

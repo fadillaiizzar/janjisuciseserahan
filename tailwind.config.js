@@ -27,7 +27,7 @@ export default {
       },
 
       backgroundImage: {
-        'project': "url('/image/bgproject.png')",
+        'project': "url('/image/project/bgproject.png')",
       },
     },
   plugins: [],

@@ -3,7 +3,7 @@ export default function BoxRiview(props) {
 
     return(
         <div>
-            <div className="bg-cmaroon px-3 py-8 rounded-lg justify-items-center shadow-2xl">
+            <div className="bg-cmaroon px-3 py-8 rounded-lg justify-items-center shadow-2xl h-auto sm:h-72 xl:h-64">
                 <div className="w-20 h-20 rounded-full">
                     <img src={imgRiview} alt="profile riview" className="w-full h-full rounded-full" />
                 </div>

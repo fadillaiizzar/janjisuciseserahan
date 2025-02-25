@@ -4,7 +4,7 @@ export default function Input(props) {
     return(
         <>
             <label htmlFor={tes} className="mb-2 cursor-pointer">{children}</label>
-            <input type={type} id={nama} className="mb-3 text-cmaroon px-2 rounded-md cursor-pointer"/>
+            <input type={type} id={nama} className="mb-3 text-cmaroon px-2 rounded-md cursor-pointer bg-ccream"/>
         </>
     );
 }

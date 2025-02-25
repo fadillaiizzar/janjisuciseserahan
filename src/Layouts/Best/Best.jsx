@@ -4,9 +4,9 @@ import CardBest from "./CardBest";
 
 export default function Best() {
     const cards = [
-        { imgCardBest: "/image/bestone.png" },
-        { imgCardBest: "/image/besttwo.png" , mtSm: "mt-40" , mtMd: "md:mt-0" },
-        { imgCardBest: "/image/bestthree.png" , mtSm: "mt-40" , mtMd: "md:mt-40" , mtLg: "lg:mt-0" },
+        { imgCardBest: "/image/best/best 1.png" },
+        { imgCardBest: "/image/best/best 2.png" , mtSm: "mt-40" , mtMd: "md:mt-0" },
+        { imgCardBest: "/image/best/best 3.png" , mtSm: "mt-40" , mtMd: "md:mt-40" , mtLg: "lg:mt-0" },
     ];
 
     return(

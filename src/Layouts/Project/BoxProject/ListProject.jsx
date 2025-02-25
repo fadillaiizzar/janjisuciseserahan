@@ -3,16 +3,16 @@ import { useState } from "react";
 import DetailBox from "./DetailBox";
 
 export default function ListProject(props) {
-    const {text, imgDetail1, imgDetail2} = props;
+    const {text, imgDetail1, imgDetail2, imgDetail3, imgDetail4, imgDetail5, imgDetail6} = props;
     const [showAll, setShowAll] = useState(false);
 
     const detailBoxs = [
         <DetailBox key={1} imgDetail={imgDetail1} />,
-        <DetailBox key={2} imgDetail={imgDetail2}/>,
-        <DetailBox key={3} />,
-        <DetailBox key={4} />,
-        <DetailBox key={5} />,
-        <DetailBox key={6} />,
+        <DetailBox key={2} imgDetail={imgDetail2} />,
+        <DetailBox key={3} imgDetail={imgDetail3} />,
+        <DetailBox key={4} imgDetail={imgDetail4} />,
+        <DetailBox key={5} imgDetail={imgDetail5} />,
+        <DetailBox key={6} imgDetail={imgDetail6} />,
     ]
 
     return(
@@ -32,7 +32,7 @@ export default function ListProject(props) {
                 </div>
 
                 <div className="mt-5 cust8:mt-3">
-                    <div className="grid grid-cols-1 cust8:grid-cols-2 md:grid-cols-3 gap-5 rounded-lg">
+                    <div className="grid grid-cols-1 cust8:grid-cols-2 md:grid-cols-3 gap-5 gap-y-10 rounded-lg">
                         {showAll ? detailBoxs : detailBoxs.slice(0, 3)}
                     </div>
 

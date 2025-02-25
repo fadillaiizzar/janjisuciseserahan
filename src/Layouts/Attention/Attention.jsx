@@ -12,7 +12,7 @@ export default function Attention() {
             <div className="px-10 my-14">
                 <div>
                     <div className="flex items-center justify-center relative">
-                        <img src="/image/flower.png" alt="image attention" className="w-80 sm:w-[450px] h-80 sm:h-[450px] rounded-full" />
+                        <img src="/image/attention/flower.png" alt="image attention" className="w-80 sm:w-[450px] h-80 sm:h-[450px] rounded-full" />
                         <div className="bg-cmaroon absolute w-48 sm:w-[265px] h-48 sm:h-[265px] rounded-full left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center">
                             <HeadingSatu
                                 pt = "0"
@@ -20,7 +20,7 @@ export default function Attention() {
                                 fontsize = "sm:text-3xl"
                                 position = "text-2xl"
                             >
-                                perhatian
+                                ...
                             </HeadingSatu>
                         </div>
                     </div>

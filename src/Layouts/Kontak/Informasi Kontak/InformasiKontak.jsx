@@ -4,9 +4,9 @@ import Sosmed from "./Sosmed";
 
 export default function InformasiKontak() {
 const sosmedItems = [
-{ link: "/", imgSosmed: "/image/whatsapp.png" },
-{ link: "/", imgSosmed: "/image/tik-tok.png" },
-{ link: "/", imgSosmed: "/image/instagram.png" },
+{ link: "https://wa.me/6281228564134", imgSosmed: "/image/sosmed/whatsapp.png" },
+{ link: "https://www.tiktok.com/@janjisuci.id?is_from_webapp=1&sender_device=pc", imgSosmed: "/image/sosmed/tik-tok.png" },
+{ link: "https://www.instagram.com/janjisuci.seserahan/", imgSosmed: "/image/sosmed/instagram.png" },
 ];
 
 return (
@@ -14,7 +14,7 @@ return (
     <div className="lg:order-1 order-2 flex flex-col justify-center">
     <div>
         <Konten
-        textparagraf="Kami adalah mitra terpercaya dengan kualitas terbaik, layanan profesional, dan perhatian penuh pada setiap detail agar hasil elemen sempurna sesuai harapan. Kami tidak hanya menyediakan jasa, tetapi juga menghadirkan pengalaman yang meninggalkan kesan mendalam di hati anda"
+        textparagraf="Kami siap membantu mewujudkan kebutuhan anda dengan layanan terbaik dan perhatian pada setiap detail. Jangan ragu untuk menghubungi kami jika anda memiliki pertanyaan, membutuhkan konsultasi, atau ingin memesan layanan kami"
         pt="pt-0"
         >
         Kontak
@@ -23,7 +23,7 @@ return (
 
     <div>
         <Konten
-        textparagraf="Kami adalah mitra terpercaya dengan kualitas terbaik, layanan profesional, dan perhatian penuh pada setiap detail agar hasil elemen sempurna sesuai harapan. Kami tidak hanya menyediakan jasa, tetapi juga menghadirkan pengalaman yang meninggalkan kesan mendalam di hati anda"
+        textparagraf="Untuk informasi lebih lanjut atau pemesanan, anda dapat menghubungi kami melalui :"
         pt="pt-10"
         >
         Informasi Kontak
@@ -48,7 +48,7 @@ return (
     <div className="order-1 lg:order-2">
     <div className="flex items-center justify-center">
         <img
-        src="/image/logo js.png"
+        src="/image/kontak/logo js.png"
         className="w-full cust2:w-72 lg:w-[370px] h-full cust2:h-[420px] lg:h-[555px]"
         />
     </div>

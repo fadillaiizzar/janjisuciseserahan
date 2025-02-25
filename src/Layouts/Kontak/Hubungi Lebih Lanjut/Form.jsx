@@ -3,9 +3,9 @@ import Konten from "../../Layanan/Konten";
 
 export default function Form() {
 return (
-<div className="bg-cmaroon p-3 rounded-lg text-ccream">
+<div className="bg-cmaroon p-3 rounded-lg text-ccream shadow-2xl">
     <Konten
-    textparagraf="Kami adalah mitra terpercaya dengan kualitas terbaik, layanan profesional, dan perhatian penuh pada setiap detail"
+    textparagraf="Ada pertanyaan atau butuh bantuan? Isi formulir di bawah ini, dan kami akan segera merespons dengan senang hati"
     pt="pt-0"
     textcolor="text-ccream"
     >
