@@ -7,44 +7,42 @@ export default function Riview() {
     const listRiview = [
         {
             name: "Seserahannya cantik dan elegan! Packaging rapi, detailnya keren, dan hasilnya memukau",
-            imgRiview: "/image/jewelrybox.png",
+            imgRiview: "/image/sukses/hero.png",
             text: "Alya & Zidan"
         },
         {
             name: "Pelayanan ramah, pengerjaan cepat, dan hasilnya sangat memuaskan",
+            imgRiview: "/image/layanan/jewelry box.png",
             text: "Dewi & Ilham"
         },
         {
             name: "Dekorasi seserahannya mewah dan rapi! Keluarga terkesan, hasilnya sangat indah",
-            imgRiview: "/image/jewelrybox.png",
             text: "Nadia & Fajar"
         },
         {
             name: "Pilihan banyak, bisa custom sesuai keinginan. Hasilnya bagus dan bikin acara spesial",
-            imgRiview: "/image/jewelrybox.png",
             text: "Sinta & Reza"
         },
         {
             name: "Harga bersahabat, kualitas premium, dan detailnya elegan. Hasilnya sangat memukau",
+            imgRiview: "/image/layanan/jewelry box.png",
             text: "Melati & Rizky"
         },
         {
             name: "Semua tertata rapi dari warna hingga konsep. Dekorasi detail dan tampak sangat estetik",
-            imgRiview: "/image/jewelrybox.png",
             text: "Rina & Aldo"
         },
         {
             name: "Eksekusi rapi, hasil eksklusif, dan jadi pusat perhatian. Sangat puas dengan pelayanannya",
-            imgRiview: "/image/jewelrybox.png",
             text: "Lisa & Bayu"
         },
         {
             name: "Tim profesional, komunikatif, dan selalu update progress. Seserahannya luar biasa indah",
+            imgRiview: "/image/layanan/jewelry box.png",
             text: "Tari & Evan"
         },
         {
             name: "Pelayanan hingga hasilnya sangat memuaskan dan recommended",
-            imgRiview: "/image/jewelrybox.png",
             text: "Indah & Rendy"
         },
     ]

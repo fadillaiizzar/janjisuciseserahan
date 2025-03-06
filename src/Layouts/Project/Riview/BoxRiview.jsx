@@ -1,5 +1,5 @@
 export default function BoxRiview(props) {
-    const { imgRiview="/image/hero.png" , text="dilla" , children="kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami" } = props;
+    const { imgRiview="/image/sukses/hero.png" , text="dilla" , children="kami berkomitmen untuk menjadikan setiap momen spesial Anda lebih berkesan dengan sentuhan terbaik kami" } = props;
 
     return(
         <div>
